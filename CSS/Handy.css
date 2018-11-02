@@ -1,0 +1,245 @@
+body {
+	font-family: 'Archivo', sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+.center {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	position: relative;
+	top: 20px;
+}
+
+.logo > img {
+	position: relative;
+	left: 18px;
+}
+.navbar > ul {
+	margin-top: 10px;
+	list-style-type: none;
+	background-color: #222931;
+	width: 950px;
+	padding-left: 30px;
+	overflow: hidden;
+}
+
+.navbar > ul > li {
+	float: left;
+}
+
+.navbar > ul > li > a {
+	text-decoration: none;
+	padding: 15px;
+	font-size: 12px;
+	font-weight: 500;
+	display: block;
+	color: white;
+}
+
+.dropdown-content {
+	position: absolute;
+	background-color: #222931;
+	width: 170px;
+	height: 85px;
+	display: none;
+}
+
+.dropdown-content > ul {
+	list-style-type: none;
+}
+
+.dropdown-content > ul > li > a {
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	padding: 3px 12px;
+	color: #aeb6be;
+}
+
+.navbar > ul > li > a:hover, .dropdown-content > ul > li > a:hover {
+	background-color: #ffe718;
+	color: #222931;
+}
+
+.navbar > ul > li:hover .dropdown-content {
+	display: block;
+}
+
+.header {
+	height: 500px;
+	background-image: url("../img/header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.banners {
+	position: relative;
+	top: 50px ;
+	display: inline;
+
+
+}
+
+.banner-2 {
+
+	position: relative;
+	padding-left: 40px;
+	padding-right:40px;
+	display: inline;
+	width: 100px
+}
+.ribbon {
+	position: relative;
+	background-color: #ffe718;
+	padding: 60px;
+	width :100%;
+	top:100px;
+	text-align: center;
+
+}
+
+.ribbontext	{
+	display: inline;
+
+}
+
+
+
+.spanribbon {
+display: inline;
+}
+.footer {
+	top: 150px;
+	position: relative;
+	height:300px;
+	background-image: url("../img/footer.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.boxes{
+	position: relative;
+	list-style-type: none;
+	top:100px;
+	
+}
+
+
+
+.Deals{
+	border:none;
+	position: relative;
+	width: 300px;
+	height: 100px;
+	padding: 20px;
+	font-size: 15px;
+	background-color: #ffe718;
+}
+.Diensten{
+	border:none;
+	font-size: 15px;
+	width: 300px;
+	height: 100px;
+	padding: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #ffe718;
+	
+}
+.Contact{
+	border:none;
+	font-size: 15px;
+	width: 300px;
+	height: 100px;
+	padding: 20px;	
+	background-color: #ffe718;
+
+}
+	
+.handshake {
+	position: relative;
+	width: 100px;
+	height:100px;
+	float:left ;
+	z-index: 5;
+	bottom: 10px;
+
+}
+
+
+.toolbox{
+	position: relative;
+	float:left;
+	width: 80px;
+	height: 80px;
+	z-index: 5;
+	bottom: 10px;
+
+}
+
+
+
+.email{
+	position: relative;
+	float:left;
+	width: 80px;
+	height: 80px;
+	z-index: 5;
+	bottom: 10px;
+}
+	
+button:hover {
+	background: #222931 ;
+	border:none;
+	color:white;
+}
+
+.overons {
+
+	position: relative;
+	width: 450px;
+	height: 400px;
+	top:190px;
+	grid-column: 1;
+	
+}
+
+.hr {
+	position: relative;
+	top: 150px;
+
+}
+
+
+.menu {
+	position: relative;
+	left: 800px;
+	bottom: 200px;
+	width: 300px;
+	height: 400px;
+	display: inline;
+
+}
+
+footer{
+
+	width: 1000px;
+	padding: 20px;
+	color: white;
+	background-color:#222931 ;
+
+}
+
+.name {
+	margin-left: 550px;
+
+
+
+}
